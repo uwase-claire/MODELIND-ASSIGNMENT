@@ -1,4 +1,4 @@
 # MODELIND-ASSIGNMENT
 NAMES: UWASE Marie Claire\
 REG NUMBER: 221021988\
-DEPARTMENT: Computer Science\
+DEPARTMENT: Computer Science
