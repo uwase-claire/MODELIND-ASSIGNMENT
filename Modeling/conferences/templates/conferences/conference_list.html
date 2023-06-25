@@ -1,0 +1,9 @@
+<h2>Conference List</h2>
+
+<ul>
+  {% for conference in conferences %}
+  <li>{{ conference.name }} - {{ conference.date }}</li>
+  {% empty %}
+  <li>No conferences available</li>
+  {% endfor %}
+</ul>

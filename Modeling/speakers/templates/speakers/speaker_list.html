@@ -1,0 +1,9 @@
+<h2>Speaker List</h2>
+
+<ul>
+  {% for speaker in speakers %}
+  <li>{{ speaker.name }} - {{ speaker.areas_of_expertise }}</li>
+  {% empty %}
+  <li>No speakers available</li>
+  {% endfor %}
+</ul>
